@@ -1,0 +1,6 @@
+pdb/2ix1.pdb	A	MG[atom_id:5393]
+pdb/2zxc.pdb	A	MG[atom_id:9971]
+pdb/3ly5.pdb	A	MG[atom_id:3069]
+pdb/3v5w.pdb	A	MG[atom_id:8192]
+pdb/4a7z.pdb	A	MG[atom_id:6813]
+pdb/4ifd.pdb	J	MG[atom_id:26615]
