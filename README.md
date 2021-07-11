@@ -53,4 +53,21 @@ Conseuently, it is possible to train and test on different versions (`all`/`expo
 e.g. train on `ZN_ppu_all_Atrain.ds` and test on `ZN_ppu_exposed_Atest.ds` or `ZN_ppu_buried_Atest.ds`.
 
 
+# MG datasets
 
+Similarly as in ZN datasets:
+* There are 2 main datasets: `ZN_ppu` and `ZN_benchmark`.
+* Each of them contain `_exposed` and `_buried` version.
+
+There is also `_all` varsion for `MG_ppu` (but not yet for `MG_benchmark`).
+Note: `MG_ppu_all.ds` is not just union of lines from `MG_ppu_buried.ds` and `MG_ppu_exposed.ds` because a single protein can contain both burried and exposed ions.
+Consequently, dataset file lines for such protein differ in burried and exposed `.ds` files.
+
+Main datasets (exposed/buried split)
+* `MG_benchmark_exposed.ds`
+* `MG_benchmark_buried.ds`
+* `MG_ppu_exposed.ds`
+* `MG_ppu_buried.ds`
+* `MG_ppu_all.ds`
+
+Train/test split of `MG-ppu` datasets hasn't bee done yet.
