@@ -56,7 +56,7 @@ e.g. train on `ZN_ppu_all_Atrain.ds` and test on `ZN_ppu_exposed_Atest.ds` or `Z
 # MG datasets
 
 Similarly as in ZN datasets:
-* There are 2 main datasets: `ZN_ppu` and `ZN_benchmark`.
+* There are 2 main datasets: `MG_ppu` and `MG_benchmark`.
 * Each of them contain `_exposed` and `_buried` version.
 
 There is also `_all` varsion for `MG_ppu` (but not yet for `MG_benchmark`).
