@@ -2,27 +2,29 @@
 
 This repository contains development datasets for P2Rank ion binding site prediction.
 
+P2Rank repo: https://github.com/rdk/p2rank
 
 # Contents
 
+Directories:
 * `_incoming`  original received files before tast/train splits
 * `_processing` ... contains notes related to prosessing of datasets
 * `ZN`, `MG`, ... datasets for individual ions
 
 
-# ZN datasets
+## ZN datasets
 
 Dataset files are based on 2 main datasets: `ZN_ppu` and `ZN_benchmark`:
 
 Description
-* *ppu*: _TODO_
-* *benchmark*: _TODO_
+* **ppu**: _TODO_
+* **benchmark**: _TODO_
 
 Each of them contain `_exposed` and `_buried` version.
 
 Description
-* *buried*: _TODO_
-* *exposed*: _TODO_
+* **buried**: _TODO_
+* **exposed**: _TODO_
 
 There is also `_all` varsion for `ZN_ppu` (but not yet for `ZN_benchmark`).
 Note: `ZN_ppu_all.ds` is not just union of lines from `ZN_ppu_buried.ds` and `ZN_ppu_exposed.ds` because a single protein can contain both burried and exposed ions.
@@ -36,7 +38,7 @@ Main datasets (exposed/buried split)
 * `ZN_ppu_all.ds`
 
 
-# train/test split of `ZN_ppu` (split A)
+### train/test split of `ZN_ppu` (split A)
 
 Additionaly there are datasets that represent train/test split of `ZN_ppu`.
 First, single random split of `ZN_ppu_all.ds` was performed: split "A" (train:66%, test:34%):.
@@ -53,7 +55,7 @@ Conseuently, it is possible to train and test on different versions (`all`/`expo
 e.g. train on `ZN_ppu_all_Atrain.ds` and test on `ZN_ppu_exposed_Atest.ds` or `ZN_ppu_buried_Atest.ds`.
 
 
-# MG datasets
+## MG datasets
 
 Similarly as in ZN datasets:
 * There are 2 main datasets: `MG_ppu` and `MG_benchmark`.
