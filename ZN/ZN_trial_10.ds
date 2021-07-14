@@ -1,0 +1,14 @@
+#
+# small dataset with 10 proteins for tril runs
+#
+HEADER: protein chains ligands
+pdb/1a2p.pdb.gz A   ZN[atom_id:2628]
+pdb/1a6f.pdb.gz A   ZN[atom_id:952],ZN[atom_id:953]
+pdb/1a73.pdb.gz A   ZN[atom_id:3354],ZN[atom_id:3355]
+pdb/1a7w.pdb.gz A   ZN[atom_id:535]
+pdb/1ah7.pdb.gz A   ZN[atom_id:2034],ZN[atom_id:2035],ZN[atom_id:2036]
+pdb/1aol.pdb.gz A   ZN[atom_id:1815],ZN[atom_id:1816],ZN[atom_id:1817]
+pdb/1au1.pdb.gz B   ZN[atom_id:3625]
+pdb/1aym.pdb.gz 1   ZN[atom_id:6417]
+pdb/1b0n.pdb.gz A   ZN[atom_id:1115],ZN[atom_id:1116],ZN[atom_id:1117],ZN[atom_id:1118],ZN[atom_id:1119]
+pdb/1bc8.pdb.gz C   ZN[atom_id:1199]
