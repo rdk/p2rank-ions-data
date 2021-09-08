@@ -26,13 +26,14 @@ Description
 * **buried**: _TODO_
 * **exposed**: _TODO_
 
-There is also `_all` varsion for `ZN_ppu` (but not yet for `ZN_benchmark`).
-Note: `ZN_ppu_all.ds` is not just union of lines from `ZN_ppu_buried.ds` and `ZN_ppu_exposed.ds` because a single protein can contain both burried and exposed ions.
-Consequently, dataset file lines for such protein differ in burried and exposed `.ds` files.
+There is also `_all` version for `ZN_ppu` (and for `ZN_benchmark`).
+Note: `ZN_ppu_all.ds` is not just union of lines from `ZN_ppu_buried.ds` and `ZN_ppu_exposed.ds` because a single protein can contain both buried and exposed ions.
+Consequently, dataset file lines for such protein differ in buried and exposed `.ds` files.
 
 Main datasets (exposed/buried split)
 * `ZN_benchmark_exposed.ds`
 * `ZN_benchmark_buried.ds`
+* `ZN_benchmark_all.ds`
 * `ZN_ppu_exposed.ds`
 * `ZN_ppu_buried.ds`
 * `ZN_ppu_all.ds`
@@ -61,15 +62,16 @@ Similarly as in ZN datasets:
 * There are 2 main datasets: `MG_ppu` and `MG_benchmark`.
 * Each of them contain `_exposed` and `_buried` version.
 
-There is also `_all` varsion for `MG_ppu` (but not yet for `MG_benchmark`).
-Note: `MG_ppu_all.ds` is not just union of lines from `MG_ppu_buried.ds` and `MG_ppu_exposed.ds` because a single protein can contain both burried and exposed ions.
-Consequently, dataset file lines for such protein differ in burried and exposed `.ds` files.
+There is also `_all` version for `MG_ppu` (and for `MG_benchmark`).
+Note: `MG_ppu_all.ds` is not just union of lines from `MG_ppu_buried.ds` and `MG_ppu_exposed.ds` because a single protein can contain both buried and exposed ions.
+Consequently, dataset file lines for such protein differ in buried and exposed `.ds` files.
 
 Main datasets (exposed/buried split)
 * `MG_benchmark_exposed.ds`
 * `MG_benchmark_buried.ds`
+* `MG_benchmark_all.ds`
 * `MG_ppu_exposed.ds`
 * `MG_ppu_buried.ds`
 * `MG_ppu_all.ds`
 
-Train/test split of `MG-ppu` datasets hasn't bee done yet.
+Train/test split of `MG-ppu` datasets hasn't been done yet.
