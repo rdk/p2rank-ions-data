@@ -75,3 +75,19 @@ Main datasets (exposed/buried split)
 * `MG_ppu_all.ds`
 
 Train/test split of `MG-ppu` datasets hasn't been done yet.
+
+### train/test split of `ZN_ppu` (split A)
+
+Similarly as in ZN datasets: Additionaly there are datasets that represent train/test split of `MG_ppu`.
+First, single random split of `MG_ppu_all.ds` was performed: split "A" (train:66%, test:34%):.
+Then `MG_ppu_exposed.ds` and `MG_ppu_buried.ds` were split according to subsets of proteins from split A.
+
+* `MG_ppu_all_Atrain.ds`
+* `MG_ppu_all_Atest.ds`
+* `MG_ppu_exposed_Atrain.ds`: subset of `MG_ppu_buried.ds` containing only proteins from `MG_ppu_all_Atrain.ds`
+* `MG_ppu_exposed_Atest.ds`: subset of `MG_ppu_exposed.ds` containing only proteins from `MG_ppu_all_Atest.ds` 
+* `MG_ppu_buried_Atrain.ds`: subset of `MG_ppu_buried.ds` containing only proteins from `MG_ppu_all_Atrain.ds`
+* `MG_ppu_buried_Atest.ds`: subset of `MG_ppu_buried.ds` containing only proteins from `MG_ppu_all_Atest.ds` 
+
+Conseuently, it is possible to train and test on different versions (`all`/`exposed`/`buried`) in a single run:
+e.g. train on `MG_ppu_all_Atrain.ds` and test on `MG_ppu_exposed_Atest.ds` or `MG_ppu_buried_Atest.ds`.
