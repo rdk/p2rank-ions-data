@@ -19,6 +19,7 @@ Dataset files are based on 2 main datasets: `ZN_ppu` and `ZN_benchmark`:
 Description
 * **ppu**: It contains X-ray structures from PDB, with a resolution of 3.0 Å or better, that include at least one (ion) ligand of interest. The dataset has been treated for protein redundancy by applying a sequence identity cutt-off of 30%, and for chain redundancy with UniProt, so as to discard identical chains within a single protein. It has been filtered to exclude structures from the benchmark dataset.
 * **benchmark**: This dataset has been used in the literature for evaluating previous predictors. It contains a sub-set of ion-binding proteins from the BioLip database, with a pairwise sequence identity below 30% and a length over 50 residues. The dataset collectively includes proteins that bind nine metal ligands.
+* **biolip**: __TODO__
 
 Each of them contain `_exposed` and `_buried` version.
 
@@ -74,7 +75,6 @@ Main datasets (exposed/buried split)
 * `MG_ppu_buried.ds`
 * `MG_ppu_all.ds`
 
-Train/test split of `MG-ppu` datasets hasn't been done yet.
 
 ### train/test split of `ZN_ppu` (split A)
 
@@ -91,3 +91,14 @@ Then `MG_ppu_exposed.ds` and `MG_ppu_buried.ds` were split according to subsets 
 
 Conseuently, it is possible to train and test on different versions (`all`/`exposed`/`buried`) in a single run:
 e.g. train on `MG_ppu_all_Atrain.ds` and test on `MG_ppu_exposed_Atest.ds` or `MG_ppu_buried_Atest.ds`.
+
+### train/test split of `ZN_ppu` (split B)
+
+Split B is renamed split A from Christos.
+
+* `MG_ppu_all_Btrain.ds`
+* `MG_ppu_all_Btest.ds`
+* `MG_ppu_exposed_Btrain.ds`
+* `MG_ppu_exposed_Btest.ds`
+* `MG_ppu_buried_Btrain.ds`
+* `MG_ppu_buried_Btest.ds`
