@@ -53,7 +53,7 @@ Then `ZN_ppu_exposed.ds` and `ZN_ppu_buried.ds` were split according to subsets 
 * `ZN_ppu_buried_Atrain.ds`: subset of `ZN_ppu_buried.ds` containing only proteins from `ZN_ppu_all_Atrain.ds`
 * `ZN_ppu_buried_Atest.ds`: subset of `ZN_ppu_buried.ds` containing only proteins from `ZN_ppu_all_Atest.ds` 
 
-Conseuently, it is possible to train and test on different versions (`all`/`exposed`/`buried`) in a single run:
+Consequently, it is possible to train and test on different versions (`all`/`exposed`/`buried`) in a single run:
 e.g. train on `ZN_ppu_all_Atrain.ds` and test on `ZN_ppu_exposed_Atest.ds` or `ZN_ppu_buried_Atest.ds`.
 
 
@@ -76,7 +76,7 @@ Main datasets (exposed/buried split)
 * `MG_ppu_all.ds`
 
 
-### train/test split of `ZN_ppu` (split A)
+### train/test split of `MG_ppu` (split A)
 
 Similarly as in ZN datasets: Additionaly there are datasets that represent train/test split of `MG_ppu`.
 First, single random split of `MG_ppu_all.ds` was performed: split "A" (train:66%, test:34%):.
@@ -89,10 +89,10 @@ Then `MG_ppu_exposed.ds` and `MG_ppu_buried.ds` were split according to subsets 
 * `MG_ppu_buried_Atrain.ds`: subset of `MG_ppu_buried.ds` containing only proteins from `MG_ppu_all_Atrain.ds`
 * `MG_ppu_buried_Atest.ds`: subset of `MG_ppu_buried.ds` containing only proteins from `MG_ppu_all_Atest.ds` 
 
-Conseuently, it is possible to train and test on different versions (`all`/`exposed`/`buried`) in a single run:
+Consequently, it is possible to train and test on different versions (`all`/`exposed`/`buried`) in a single run:
 e.g. train on `MG_ppu_all_Atrain.ds` and test on `MG_ppu_exposed_Atest.ds` or `MG_ppu_buried_Atest.ds`.
 
-### train/test split of `ZN_ppu` (split B)
+### train/test split of `MG_ppu` (split B)
 
 Split B is renamed split A from Christos.
 
