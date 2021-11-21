@@ -1,0 +1,10 @@
+1 != 0  |OLD:|  pdb/1n52.pdb.gz  A  MG[contact_res_ids:A_K707,A_Y761,A_V763,A_T764]  |NEW:|  
+1 != 0  |OLD:|  pdb/1qu2.pdb.gz  A  MG[contact_res_ids:A_N713,A_N718]  |NEW:|  
+1 != 0  |OLD:|  pdb/2g25.pdb.gz  A  MG[contact_res_ids:A_D230,A_N260,A_Q262]  |NEW:|  
+1 != 0  |OLD:|  pdb/2yfn.pdb.gz  A  MG[contact_res_ids:A_E176,A_E277,A_F280]  |NEW:|  
+1 != 0  |OLD:|  pdb/2a69.pdb.gz  C  MG[contact_res_ids:C_K696,C_D698]  |NEW:|  
+2 != 1  |OLD:|  pdb/3dxj.pdb.gz  D  MG[contact_res_ids:D_D739,D_D741,D_D743],MG[contact_res_ids:D_K840,D_Y841,D_V842]  |NEW:|  MG[atom_id:56085]
+2 != 3  |OLD:|  pdb/3sdu.pdb.gz  A  MG[contact_res_ids:A_D566,A_D570],MG[contact_res_ids:A_D713,A_T717,A_E721]  |NEW:|  MG[atom_id:6371],MG[atom_id:6372],MG[atom_id:6373]
+1 != 0  |OLD:|  pdb/4ja2.pdb.gz  A  MG[contact_res_ids:A_D10,A_D53,A_M55]  |NEW:|  
+2 != 1  |OLD:|  pdb/4gzk.pdb.gz  A  MG[contact_res_ids:A_D626,A_I629],MG[contact_res_ids:A_G348,A_D349,A_D470,A_E503]  |NEW:|  MG[atom_id:5309]
+1 != 0  |OLD:|  pdb/3wky.pdb.gz  B  MG[contact_res_ids:B_A247,B_F248,B_E249,B_D250]  |NEW:|  
