@@ -1,4 +1,3 @@
-# exactly the same as new conversion, to be deleted
 HEADER: protein chains ligands
 pdb/1ai3.pdb.gz  A  MG[atom_id:3259]
 pdb/1aih.pdb.gz  C  MG[atom_id:5386]

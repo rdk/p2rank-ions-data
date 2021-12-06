@@ -1,4 +1,3 @@
-# exactly the same as new conversion, to be deleted
 HEADER: protein chains ligands
 pdb/1a2p.pdb.gz  C  ZN[atom_id:2630]
 pdb/1a5t.pdb.gz  A  ZN[atom_id:3064]
