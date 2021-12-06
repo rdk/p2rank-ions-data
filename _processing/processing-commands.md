@@ -76,10 +76,12 @@ cat MG_ppu_buried.ds | grep -f _ppu_all_A_test.list > MG_ppu_buried_Atest.ds
 #
 cat ZN_biolip_all.ds | grep pdb/ | awk '{print $1}' | sed 's|pdb/||' | sort -u > _biolip_all.list
 shuf _biolip_all.list > _biolip_all_shufA.list
-wc -l _biolip_all_shufA.list # 1597 
-split -a1 -d -l $(( 1752 * 66 / 100 )) - _biolip_all_splitA < _biolip_all_shufA.list # 66% vs 34% split
+wc -l _biolip_all_shufA.list # 1537, before 1597 
+split -a1 -d -l $(( 1537 * 66 / 100 )) - _biolip_all_splitA < _biolip_all_shufA.list # 66% vs 34% split
 mv _biolip_all_splitA0 _biolip_all_A_train.list
 mv _biolip_all_splitA1 _biolip_all_A_test.list
+wc -l _biolip_all_A_train.list  # 1014
+wc -l _biolip_all_A_test.list  # 523
 echo HEADER >> _biolip_all_A_train.list   # to match also HEADER line when doing 'grep -f'
 echo HEADER >> _biolip_all_A_test.list
 
@@ -100,10 +102,12 @@ cat ZN_biolip_all.ds | grep -f _biolip_all_A_test.list > ZN_biolip_all_Atest.ds
 #
 cat MG_biolip_all.ds | grep pdb/ | awk '{print $1}' | sed 's|pdb/||' | sort -u > _biolip_all.list
 shuf _biolip_all.list > _biolip_all_shufA.list
-wc -l _biolip_all_shufA.list # 1773 
-split -a1 -d -l $(( 2348 * 66 / 100 )) - _biolip_all_splitA < _biolip_all_shufA.list # 66% vs 34% split
+wc -l _biolip_all_shufA.list # 1818, before 1773 
+split -a1 -d -l $(( 1818 * 66 / 100 )) - _biolip_all_splitA < _biolip_all_shufA.list # 66% vs 34% split
 mv _biolip_all_splitA0 _biolip_all_A_train.list
 mv _biolip_all_splitA1 _biolip_all_A_test.list
+wc -l _biolip_all_A_train.list  # 1199
+wc -l _biolip_all_A_test.list  # 619
 echo HEADER >> _biolip_all_A_train.list   # to match also HEADER line when doing 'grep -f'
 echo HEADER >> _biolip_all_A_test.list
 
