@@ -1,3 +1,8 @@
+# BioLIP dataset with proteins similar to benchmark removed
+# len50 version
+# original name: MG_BioLiP_woBench30_pc30.0_res0.0-3.0_len50-10000_R0.25_Xray_d2021_11_28_chains1906.contactres_converted.ds
+
+
 HEADER: protein chains ligands
 pdb/1ai3.pdb.gz  A  MG[atom_id:3259]
 pdb/1aih.pdb.gz  C  MG[atom_id:5386]

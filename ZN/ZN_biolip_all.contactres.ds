@@ -1,3 +1,8 @@
+# BioLIP dataset with proteins similar to benchmark removed
+# len50 version
+# original name: ZN_BioLiP_woBench30_pc30.0_res0.0-3.0_len50-10000_R0.25_Xray_d2021_11_28_chains1622.contactres.ds
+
+
 HEADER: protein chains ligands
 pdb/1a2p.pdb.gz  C  ZN[contact_res_ids:C_E60,C_K62]
 pdb/1a5t.pdb.gz  A  ZN[contact_res_ids:A_C50,A_C59,A_C62,A_C65]
