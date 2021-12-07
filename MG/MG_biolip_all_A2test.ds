@@ -1,3 +1,4 @@
+HEADER: protein chains ligands
 pdb/3jz0.pdb.gz  A  MG[atom_id:4410],MG[atom_id:4411]
 pdb/3eyw.pdb.gz  A  MG[atom_id:5588]
 pdb/1n67.pdb.gz  A  MG[atom_id:2549],MG[atom_id:2550],MG[atom_id:2551]
